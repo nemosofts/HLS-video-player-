@@ -1,4 +1,5 @@
 # HLS-video-player-
+<code>
 String player_applicationId = "com.online.player";
 try {
     Intent sendIntent = new Intent(Intent.ACTION_SEARCH);
@@ -15,3 +16,4 @@ try {
     e.printStackTrace();
     startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + player_applicationId)));
 }
+</code>
